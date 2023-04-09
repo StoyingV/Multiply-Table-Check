@@ -1,0 +1,19 @@
+{
+  "name": "multiplycheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vet",
+  "license": "ISC",
+  "bin": {
+    "all mult check": "all_table.js",
+    "one mult check": "src.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
