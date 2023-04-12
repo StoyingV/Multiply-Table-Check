@@ -15,7 +15,7 @@ let answer;
 
 for (let i = 1; i < 40; i++) {
   const devider = i % 2;
-  //mult1 = Math.round(Math.random()*10);
+  //mult1 = Math.round(Math.random()*10 + 1);
   switch (devider) {
     case 0:
       mult2 = arrMult.pop();
