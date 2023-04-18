@@ -3,9 +3,9 @@
 import readlineSync from "readline-sync";
 const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrMult = [...arrNumbers.sort(() => Math.random() - 0.5)];
-console.log(arrMult);
+
 const arrDev = [...arrNumbers.sort(() => Math.random() - 0.5)];
-console.log(arrDev);
+
 let mult1 = 1; 
 
 let mark = 0;
@@ -14,7 +14,7 @@ let answer;
 
 for (let i = 1; i < 20; i++) {
   const devider = i % 2;
-  mult1 = Math.round(Math.random()*10+1);
+  mult1 = Math.round(Math.random()*9 + 1);
   switch (devider) {
     case 0:
       mult2 = arrMult.pop();
